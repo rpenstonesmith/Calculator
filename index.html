@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./resources/style.css">
+    <title>Calculator Project</title>
+</head>
+<body>
+    <script src="./index.js"></script>
+<div class="calc">
+    <input type="text" id="ans">
+    <div class="btn">
+        <input type="button" value="C" onClick="Clear()">
+        <input type="button" value="←" onClick="Back('←')">
+        <input type="button" value="%" onClick="Solve('%')">
+        <input type="button" value="/" onClick="Solve('/')">
+        <br>
+        <input type="button" value="7" onClick="Solve('7')">
+        <input type="button" value="8" onClick="Solve('8')">
+        <input type="button" value="9" onClick="Solve('9')">
+        <input type="button" value="*" onClick="Solve('*')">
+        <br>
+        <input type="button" value="4" onClick="Solve('4')">
+        <input type="button" value="5" onClick="Solve('5')">
+        <input type="button" value="6" onClick="Solve('6')">
+        <input type="button" value="-" onClick="Solve('-')">
+        <br>
+        <input type="button" value="1" onClick="Solve('1')">
+        <input type="button" value="2" onClick="Solve('2')">
+        <input type="button" value="3" onClick="Solve('3')">
+        <input type="button" value="+" onClick="Solve('+')">
+        <br>
+        <input type="button" value="00" onClick="Solve('00')">
+        <input type="button" value="0" onClick="Solve('0')">
+        <input type="button" value="." onClick="Solve('.')">
+        <input type="button" value="=" onClick="Result()">
+       </div>
+</div>
+</body>
+</html>
